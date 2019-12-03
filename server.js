@@ -15,7 +15,7 @@ mongoose.connect(DB, {
     useCreateIndex: true,
     useFindAndModify: false
 }).then(con => {
-    console.log('DB connection successful!');
+    //console.log('DB connection successful!');
 });
 
 
@@ -23,6 +23,6 @@ mongoose.connect(DB, {
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-    console.log(`App running on port ${port}...`);
+    //console.log(`App running on port ${port}...`);
 
 });
